@@ -33,7 +33,6 @@
 #include "pci.h"
 
 #define FNAME "VIAXFG"
-#define VER "0.3.0"
 
 /* VIA PCI IDs */
 #define PCI_VENDOR_ID_VIA		0x1106
@@ -164,7 +163,7 @@ void init_card()
 
 void print_header()
 {
-	printf("VIAXFG v%s - VIA Extended SB Config Tool. (c) 2022 Enaiel <enaiel@gmail.com>\n", VER);
+	printf("VIAXFG v%s - VIA Extended SB Config Tool. (c) 2022 Enaiel <enaiel@gmail.com>\n", VERSION);
 }
 
 void print_usage()

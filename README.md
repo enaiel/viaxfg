@@ -1,5 +1,5 @@
 
-VIAXFG v0.3.0 - VIA Extended SB Config Tool 
+VIAXFG v0.3.1 - VIA Extended SB Config Tool 
 ===========================================
 For VIA southbridge chipsets VT82C686/A/B and VT8231
 
@@ -38,7 +38,9 @@ computer from using this software.
 ALTERNATIVES
 ------------
 VIASBCFG by Vogons member @JazeFox.
+
 VIAS by Vogons member @Javispedro1.
+
 Official VIAUDIO utility.
 
 CREDITS
@@ -76,3 +78,6 @@ HISTORY
 
 2024-08-01: v0.3.0
 * Initial Github release.
+
+2026-09-06: v0.3.1
+* Enhance build files to support versioning and cross-compiling.
